@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h1>Welcome to relative url templates !</h1>
+	<!-- 
+	<a href="basic_app/other.html">The OTHER page</a>
+	href has absolute path to other.html
+	-->
+
+	<a href="{% url 'basic_appXXX:other' %}">The OTHER page</a>
+	<a href="{% url 'admin:index' %}">Link to admin</a>
+	<a href="{% url 'index' %}">Link to index</a>
+
+	<!-- 
+		url template tagging for Dhjango 2.0+
+	-->
+
+</body>
+</html>
